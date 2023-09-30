@@ -1,0 +1,32 @@
+.fourthpagebox{
+    height: 270px;
+    width: 800px;
+    position: relative;
+    top: 100px;
+    left: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+    gap: 0px 0px;
+}
+.fourthpagebox>*{
+    height: 90px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.fourthpagebox>.three{
+    padding-left: 40px;
+}
+.fourthpagebox>.two{
+    width: 100%;
+}
+.fourthpagebox>.four{
+    font-size: 25px;
+    text-align: start;
+    font-weight: 500;
+}

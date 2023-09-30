@@ -1,0 +1,61 @@
+.thirdpagebox{
+    height: 300px;
+    width: 800px;
+    position: relative;
+    top: 100px;
+    left: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+    gap: 0px 0px;
+}
+.thirdpagebox>*{
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+
+
+}
+.page.three>.six{
+    font-size: 27px;
+    position: relative;
+    top: 100px;
+    text-wrap: wrap;
+    width: 750px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    left: 160px;
+}
+.thirdpagebox>.three{
+    width: 100%;
+    color: rgb(150,95,68);
+}
+.thirdpagebox>.one{
+    width: 400px;
+
+}
+.thirdpagebox>.four{
+    width: 250px;
+    color: rgb(150,95,68);
+}
+.rightring{
+    position: absolute;
+    left: 719px;
+    top: 2500px;
+}
+.leftring{
+    position: absolute;
+    top: 2400px;
+    width: 900px;
+}
+.bubbles{
+    position: absolute;
+    top: 1200px;
+    width: 1700px;
+    left: -780px;
+}

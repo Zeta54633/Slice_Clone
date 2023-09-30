@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.page{
+    height: 1500px;
+}
+.page.two{
+    background-color: rgb(218,24,198);
+    z-index: 1;
+}
+.page.three{
+    background-color: rgb(250,196,59);
+    z-index: 3;
+}
+.page.four{
+    background-color: rgb(123,0,198);
+    z-index: 5;
+}
+.page.five{
+    background-color: rgb(60,187,1);
+    z-index: 7;
+}
+.page.six{
+    background-color: rgb(158,43,207);
+    z-index: 9;
+    height: 550px;
+}
+video{
+    position: fixed;
+    width: 100%;
+    top: -500px;
+    overflow: hidden;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-x: hidden;
+}
+.connect{
+    margin-top: 230px;
+    height: 400px;
+    width: 1700px;
+    background-color: aqua;
+    position: absolute;
+    overflow: hidden;
+    transform: rotate(-10deg);
+}
+.connect.one{
+    top: 1110px;
+    background-color: rgb(218,24,198);
+    z-index: 0;
+}
+.connect.two{
+    top: 2620px;
+    z-index: 2;
+    background-color: rgb(250,196,59);
+}
+.connect.three{
+    top: 4100px;
+    background-color: rgb(123,0,198);
+    z-index: 4;
+}
+.connect.four{
+    top: 5600px;
+    background-color: rgb(60,187,1);
+    z-index: 6;
+}
+
+
+nav{
+    height: 90px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+nav p{
+    font-family: 'Rubik', sans-serif;
+    color: white;
+}
+nav>div{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 50px;
+    top: 20px;
+    justify-content: space-between;
+    margin-left: 55px;
+    margin-right: 55px;
+    font-size: 45px;
+}
+nav>div>div{
+    font-size: 15px;
+    width: 120px;
+    text-align: center;
+    line-height: 50px;
+}
+.scrolltab{
+    position: fixed;
+    height: 70px;
+    width: 50px;
+    top: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+    z-index: 99;
+}
+.circle{
+    height: 7px;
+    width: 7px;
+    background-color: white;
+    border-radius: 50%;
+    border: solid white 1px;
+}

@@ -1,0 +1,53 @@
+.secondpagebox{
+    height: 300px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 0px 0px;
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+.secondpagebox>*{
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+
+}
+.secondpagebox>.three{
+    width: 100%;
+}
+.secondpagebox>.one{
+    width: 370px;
+}
+.secondpagebox>.two{
+    width: 200px;
+}
+.secondpagebox>.four{
+    margin-left: 65px;
+    width: 360px;
+}
+
+.page.two>p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 100px;
+    left: 150px;
+    text-wrap: wrap;
+    font-size: 23px;
+    width: 600px;
+}
+
+.page.two>img{
+    position: absolute;
+    left: 719px;
+    top: 600px;
+    width: 800px;
+}

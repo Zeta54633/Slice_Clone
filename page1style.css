@@ -1,0 +1,60 @@
+.frontpagebox{
+    height: 320px;
+    width: 700px;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 0px 0px;
+    padding: 0;
+    align-content: flex-start;
+}
+.frontpagebox > *{
+    height: 70px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 70px;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+.frontpagebox p.six{
+    font-size: 15px;
+    word-wrap: normal;
+    width: 120px;
+    padding-top: 30px;
+}
+.frontpagebox> .six.seven{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    align-content: flex-start;
+    border: solid white 1px;
+    border-radius: 5px;
+
+}
+
+.frontpagebox img{
+    height: 90px;
+    width: 90px;
+}
+.frontpagebox .one{
+    width: 200px;
+}
+.frontpagebox .two{
+    width: 460px;
+}
+.frontpagebox .three{
+    width: 100%;
+}
+.frontpagebox .five{
+    width: 150px;
+}
+.frontpagebox .eight{
+    font-size: 20px;
+    height: auto;
+    font-weight: 400;
+}
