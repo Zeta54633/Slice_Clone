@@ -111,7 +111,13 @@ nav>div>div{
 .circle{
     height: 7px;
     width: 7px;
-    background-color: white;
     border-radius: 50%;
     border: solid white 1px;
+}
+.shadow{
+    position: absolute;
+    background-color: rgb(1,1,1,0.5);
+    height: 1500px;
+    width: 100%;
+    z-index: 0;
 }
