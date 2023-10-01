@@ -30,3 +30,29 @@
     text-align: start;
     font-weight: 500;
 }
+
+.card{
+    position: absolute;
+    top: 3650px;
+    width: 1000px;
+    left: 550px;
+}
+.leftdown{
+    position: absolute;
+    width: 1000px;
+    top: 3250px;
+    z-index: 20;
+}
+.leftup{
+    position: absolute;
+    top: 3270px;
+    width: 1000px;
+    z-index: 19;
+    left: -70px;
+}
+.airpod{
+    position: absolute;
+    top: 4000px;
+    width: 650px;
+    left: 50px;
+}
