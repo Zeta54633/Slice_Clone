@@ -1,0 +1,35 @@
+.fifthpagebox{
+    height: 300px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 0px 0px;
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+.fifthpagebox>*{
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+}
+.fifthpagebox>.two{
+    width: 100%;
+}
+.fifthpagebox>.one{
+    width: 550px;
+}
+.greenphone{
+    position: absolute;
+    top: 6150px;
+    left: 100px;
+}
+.page.five{
+    height: 940px;
+}
